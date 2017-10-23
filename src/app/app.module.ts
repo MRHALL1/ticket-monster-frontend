@@ -49,16 +49,16 @@ import {RouterModule} from '@angular/router';
         path: 'events',
         component: EventComponent
       }
-      ,/*
+      ,
       {
         path: 'locations',
         component: LocationComponent
-      }/*
+      }
       ,
       {
         path: 'tickets',
         component: TicketComponent
-      }*/
+      }
       ,
       {
         path: 'venues',

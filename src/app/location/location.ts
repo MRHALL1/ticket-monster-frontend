@@ -1,11 +1,11 @@
 export class Location {
   _id: string;
-  zip_code: string;
+  zipCode: string;
   name: string;
 
-  constructor(_id?: string, name?: string, location?: string) {
+  constructor(_id?: string, zipCode?: string, name?: string) {
     this._id = _id;
-    this.zip_code = zip_code;
+    this.zipCode = zipCode;
     this.name = name;
   }
 }

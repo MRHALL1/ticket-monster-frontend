@@ -15,7 +15,7 @@ export class TicketService {
   constructor(private http: Http) {}
 
   public getAllTickets(): Observable<Ticket[]> {
-    return this.http.get(this.ticektUrl)
+    return this.http.get(this.ticketUrl)
       .map(this.extractData);
   }
 
